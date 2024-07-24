@@ -1,0 +1,86 @@
+*{
+    box-sizing: border-box;
+} 
+
+body{
+    padding: 0px;
+    margin: 0px;
+    background: #FAF6F5;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+header{
+    background-color: #49AE5D;
+    height: 70px;
+}
+
+/* WEBSITE NAME STYLING */
+header *{
+    color: #082D0F;
+}
+
+header .logo-text{
+    margin: 12px;
+    font-family: DM Serif Display, serif;
+}
+
+header .logo-text span{
+    color: #F5ED52;
+}
+
+header .logo{ 
+    float: left;
+    height: inherit;
+    margin-left: 2em;
+}
+/* WEBSITE NAME STYLING */
+
+/* NAVIGATION BAR STYLING */
+header nav{
+    float: right;
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+header nav li{
+    float: left;
+    position: relative;
+}
+
+header nav li a{
+    display: block;
+    padding: 23.5px;
+    font-size: 1.1em;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header nav li a:hover{
+    background: #F5ED52;
+    transition: 0.5s;
+}
+/* NAVIGATION BAR STYLING */
+
+/* HOME PAGE STYLINGS */
+    img{
+        width: 2500px;
+    }
+
+    h2{
+        text-align: center;
+        color: #082D0F;
+    }
+
+    p{
+        text-align: left;
+        padding: 30px;
+    }
+/* //HOME PAGE STYLINGS */
+
+/* FOOTER STYLINGS */
+    footer{
+        background:#082D0F;
+        color: #FAF6F5;
+    }
+/* //FOOTER STYLINGS */
